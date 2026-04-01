@@ -44,7 +44,7 @@ const DigitalTools = ({ cardItems, setCardItems }) => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    fetch("/public/dataPack.json")
+    fetch("/dataPack.json")
       .then((res) => res.json())
       .then((data) => setProducts(data))
       .catch((err) => console.error("Error fetching data:", err));
@@ -128,7 +128,7 @@ const DigitalTools = ({ cardItems, setCardItems }) => {
                 <button
                   onClick={() => handleBuyNow(product)}
                   disabled={cardItems?.find((card) => card.id === product.id)}
-                  className="mt-auto w-full py-3.5 bg-gradient-to-r from-[#4f39f6] to-[#9514FA] text-white font-semibold rounded-full transition-colors duration-300 disabled:bg-none disabled:bg-gray-400 disabled:cursor-not-allowed"
+                  className="mt-auto w-full py-3.5 bg-linear-to-r from-[#4f39f6] to-[#9514FA] text-white font-semibold rounded-full transition-colors duration-300 disabled:bg-none disabled:bg-gray-400 disabled:cursor-not-allowed"
                 >
                   {cardItems?.find((card) => card.id === product.id)
                     ? "Added"
