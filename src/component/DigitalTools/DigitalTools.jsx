@@ -7,6 +7,7 @@ import {
   Settings,
   Share2,
 } from "lucide-react";
+
 import React, { useEffect, useState } from "react";
 import { toast } from "react-toastify";
 
@@ -112,7 +113,7 @@ const DigitalTools = ({ cardItems, setCardItems }) => {
               >
                 <div className="flex justify-between items-start mb-6">
                   <div className="h-12 w-12 bg-slate-50 rounded-full flex items-center justify-center border border-slate-100">
-                    {getIcon(product.icon)}
+                    <img src={product.icon} alt="" />
                   </div>
                   {product.tag && (
                     <span
