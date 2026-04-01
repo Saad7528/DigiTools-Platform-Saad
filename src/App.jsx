@@ -5,6 +5,8 @@ import DigitalTools from './component/DigitalTools/DigitalTools'
 import Footer from './component/Footer/Footer'
 import GetSteps from './component/GetSteps/GetSteps'
 import Navbar from './component/Navbar/Navbar'
+import PricingSection from './component/PricingSection/PricingSection'
+import WorkFlow from './component/WorkFlow/WorkFlow'
 
 function App() {
 
@@ -19,6 +21,10 @@ function App() {
     <DigitalTools/>
 
     <GetSteps/>
+
+    <PricingSection/>
+
+    <WorkFlow/>
 
     <Footer/>
     </>

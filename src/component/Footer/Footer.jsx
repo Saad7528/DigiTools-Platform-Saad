@@ -1,116 +1,92 @@
+import React from 'react';
+
 const Footer = () => {
   return (
-    <footer className="bg-zinc-950 border-t border-red-900/50 pt-16 pb-10">
-      <div className="max-w-7xl mx-auto px-6">
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-12">
-          {/* Logo & Description */}
-          <div className="md:col-span-5">
-            <div className="flex items-center gap-3 mb-6">
-              {/* <img src="/logo.png" alt="AI Hub Logo" className="h-10 w-auto" /> */}
-              <h2 className="text-3xl font-bold tracking-tighter text-white">
-                DigiTools
-              </h2>
-            </div>
-
-            <p className="text-zinc-400 text-lg max-w-md">
-              One subscription. Access to all frontier AI models in a single
-              powerful platform.
+    <footer className="bg-[#101727] pt-20 pb-8 px-6 lg:px-12 font-sans text-white">
+      <div className="w-9/12 mx-auto">
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-12 mb-16">
+          
+          <div className="lg:col-span-2">
+            <h2 className="text-3xl font-bold mb-6 tracking-wide">DigiTools</h2>
+            <p className="text-slate-400 text-[15px] leading-relaxed max-w-sm">
+              Premium digital tools for creators, professionals, and businesses. Work smarter with our suite of powerful tools.
             </p>
-
-            {/* <div className="mt-8 flex gap-6 text-2xl text-zinc-500">
-                            <a href="#" className="hover:text-red-500 transition-colors"><FaTwitter /></a>
-                            <a href="#" className="hover:text-red-500 transition-colors"><FaGithub /></a>
-                            <a href="#" className="hover:text-red-500 transition-colors"><FaLinkedin /></a>
-                            <a href="#" className="hover:text-red-500 transition-colors"><FaDiscord /></a>
-                            <a href="#" className="hover:text-red-500 transition-colors"><FaYoutube /></a>
-                        </div> */}
           </div>
 
-          {/* Quick Links */}
-          <div className="md:col-span-2">
-            <h3 className="text-red-400 font-semibold mb-6 text-lg">Product</h3>
-            <ul className="space-y-4 text-zinc-400">
-              <li>
-                <a href="#" className="hover:text-white transition">
-                  Models
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-white transition">
-                  Pricing
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-white transition">
-                  Features
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-white transition">
-                  API
-                </a>
-              </li>
+          <div className="lg:col-span-1">
+            <h3 className="text-lg font-medium mb-6">Product</h3>
+            <ul className="space-y-4 text-slate-400 text-[15px]">
+              <li><a href="#" className="hover:text-white transition-colors">Features</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Pricing</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Templates</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Integrations</a></li>
             </ul>
           </div>
 
-          <div className="md:col-span-2">
-            <h3 className="text-red-400 font-semibold mb-6 text-lg">Company</h3>
-            <ul className="space-y-4 text-zinc-400">
-              <li>
-                <a href="#" className="hover:text-white transition">
-                  About Us
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-white transition">
-                  Blog
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-white transition">
-                  Careers
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-white transition">
-                  Contact
-                </a>
-              </li>
+          <div className="lg:col-span-1">
+            <h3 className="text-lg font-medium mb-6">Company</h3>
+            <ul className="space-y-4 text-slate-400 text-[15px]">
+              <li><a href="#" className="hover:text-white transition-colors">About</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Blog</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Careers</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Press</a></li>
             </ul>
           </div>
 
-          <div className="md:col-span-3">
-            <h3 className="text-red-400 font-semibold mb-6 text-lg">Legal</h3>
-            <ul className="space-y-4 text-zinc-400">
-              <li>
-                <a href="#" className="hover:text-white transition">
-                  Privacy Policy
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-white transition">
-                  Terms of Service
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-white transition">
-                  Cookie Settings
-                </a>
-              </li>
+          <div className="lg:col-span-1">
+            <h3 className="text-lg font-medium mb-6">Resources</h3>
+            <ul className="space-y-4 text-slate-400 text-[15px]">
+              <li><a href="#" className="hover:text-white transition-colors duration-300">Documentation</a></li>
+              <li><a href="#" className="hover:text-white transition-colors duration-300">Help Center</a></li>
+              <li><a href="#" className="hover:text-white transition-colors duration-300">Community</a></li>
+              <li><a href="#" className="hover:text-white transition-colors duration-300">Contact</a></li>
             </ul>
+          </div>
+
+          <div className="lg:col-span-1">
+            <h3 className="text-lg font-medium mb-6">Social Links</h3>
+            <div className="flex gap-4">
+              
+              <a href="#" className="h-10 w-10 bg-white rounded-full flex items-center justify-center text-[#0b101e] hover:bg-slate-200 transition-colors duration-300">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                  <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+                </svg>
+              </a>
+
+              <a href="#" className="h-10 w-10 bg-white rounded-full flex items-center justify-center text-[#0b101e] hover:bg-slate-200 transition-colors duration-300">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                </svg>
+              </a>
+
+              <a href="#" className="h-10 w-10 bg-white rounded-full flex items-center justify-center text-[#0b101e] hover:bg-slate-200 transition-colors duration-300">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M4 4l11.733 16h4.267l-11.733 -16z"></path>
+                  <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"></path>
+                </svg>
+              </a>
+
+            </div>
+          </div>
+
+        </div>
+
+        
+        <div className="border-t border-slate-700/50 mb-8"></div>
+
+        
+        <div className="flex flex-col md:flex-row justify-between items-center text-[14px] text-slate-500">
+          <p>© 2026 Digitools. All rights reserved.</p>
+          <div className="flex gap-6 mt-4 md:mt-0">
+            <a href="#" className="hover:text-white transition-colors duration-300">Privacy Policy</a>
+            <a href="#" className="hover:text-white transition-colors duration-300">Terms of Service</a>
+            <a href="#" className="hover:text-white transition-colors duration-300">Cookies</a>
           </div>
         </div>
 
-        {/* Bottom Bar */}
-        <div className="mt-16 pt-8 border-t border-zinc-800 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-zinc-500">
-          <div>© {new Date().getFullYear()} AI Hub. All rights reserved.</div>
-
-          <div className="flex gap-6">
-            <a href="#" className="hover:text-red-400 transition">
-              Made with ❤️ for AI enthusiasts
-            </a>
-          </div>
-        </div>
       </div>
     </footer>
   );

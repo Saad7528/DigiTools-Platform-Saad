@@ -8,13 +8,13 @@ const ActiveUser = () => {
           <h2 className="text-6xl font-extrabold text-white">50K+</h2>
           <p className="text-2xl font-medium text-white/80 mt-3">Active Users</p>
         </div>
-          <div className="divider divider-horizontal before:bg-white after:bg-white"></div>
+          <div className="divider divider-horizontal before:bg-white/40 after:bg-white/40"></div>
 
         <div>
           <h2 className="text-6xl font-extrabold text-white">200+</h2>
           <p className="text-2xl font-medium text-white/80 mt-3">Premium Tools</p>
         </div>
-        <div className="divider divider-horizontal before:bg-white after:bg-white"></div>
+        <div className="divider divider-horizontal before:bg-white/40 after:bg-white/40"></div>
         <div>
           <h2 className="text-6xl font-extrabold text-white">4.9</h2>
           <p className="text-2xl font-medium text-white/80 mt-3">Rating</p>
