@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import './App.css'
 import ActiveUser from './component/ActiveUser/ActiveUser'
 import Banner from './component/Banner/Banner'
@@ -9,16 +10,17 @@ import PricingSection from './component/PricingSection/PricingSection'
 import WorkFlow from './component/WorkFlow/WorkFlow'
 
 function App() {
+  const [cardItems,setCardItems]= useState([])
 
   return (
     <>    
-    <NavBar/>
+    <NavBar cardItems={cardItems} />
 
     <Banner/>
 
     <ActiveUser/>
 
-    <DigitalTools/>
+    <DigitalTools setCardItems={setCardItems} cardItems={cardItems}/>
 
     <GetSteps/>
 
