@@ -1,45 +1,18 @@
-import {
-  Camera,
-  Check,
-  FileText,
-  Layers,
-  PenTool,
-  Settings,
-  Share2,
-} from "lucide-react";
-
+import {Check} from "lucide-react";
 import React, { useEffect, useState } from "react";
 import { toast } from "react-toastify";
 
-const getIcon = (iconName) => {
-  switch (iconName) {
-    case "pen-tool":
-      return <PenTool className="h-6 w-6 text-blue-500" />;
-    case "layers":
-      return <Layers className="h-6 w-6 text-orange-500" />;
-    case "camera":
-      return <Camera className="h-6 w-6 text-teal-500" />;
-    case "settings":
-      return <Settings className="h-6 w-6 text-yellow-500" />;
-    case "file-text":
-      return <FileText className="h-6 w-6 text-green-500" />;
-    case "share-nodes":
-      return <Share2 className="h-6 w-6 text-pink-500" />;
-    default:
-      return <Settings className="h-6 w-6 text-gray-500" />;
-  }
-};
+
 
 const getTagStyle = (tagType) => {
-  switch (tagType) {
-    case "best-seller":
-      return "bg-amber-100 text-amber-700";
-    case "popular":
-      return "bg-purple-100 text-purple-700";
-    case "new":
-      return "bg-green-100 text-green-700";
-    default:
-      return "bg-gray-100 text-gray-700";
+  if(tagType === "best-seller"){
+    return "bg-amber-100 text-amber-700";
+  }else if(tagType === "popular"){
+    return "bg-purple-100 text-purple-700";
+  }else if(tagType === "new"){
+    return "bg-green-100 text-green-700";
+  }else{
+    return "bg-gray-100 text-gray-700";
   }
 };
 
@@ -180,7 +153,7 @@ const DigitalTools = ({ cardItems, setCardItems }) => {
                     >
                       <div className="flex items-center gap-4">
                         <div className="h-12 w-12 bg-white rounded-full flex items-center justify-center shadow-sm border border-slate-100 shrink-0">
-                          {getIcon(item.icon)}
+                          <img src={item.icon} alt="" />
                         </div>
                         <div>
                           <h4 className="text-base font-semibold text-slate-900 mb-0.5">

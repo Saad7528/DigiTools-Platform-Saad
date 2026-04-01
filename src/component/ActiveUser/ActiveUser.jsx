@@ -2,7 +2,7 @@ import React from "react";
 
 const ActiveUser = () => {
   return (
-    <div className="bg-linear-to-r from-[#4f39f6] to-[#9514FA]">
+    <div className="bg-linear-to-r from-[#4f39f6] to-[#9514FA] mt-10">
       
       <div className="w-11/12 md:w-9/12 mx-auto py-12 md:py-16 flex flex-col md:flex-row justify-between items-center gap-6 md:gap-0 text-center">
         

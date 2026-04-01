@@ -125,7 +125,7 @@ const Banner = () => {
             Digital Workflow
           </h1>
 
-          <p className="text-lg/[20px] text-[#627382] max-w-lg">
+          <p className="text-lg/[20px] text-[#627382] max-w-lg leading-relaxed">
             Access premium AI tools, design assets, templates, and productivity
             <br />
             software—all in one place. Start creating faster today.
@@ -135,7 +135,7 @@ const Banner = () => {
 
           <div className="flex flex-wrap gap-4 pt-4">
             <GradientBtn btnText={"Explore Products"}></GradientBtn>
-            <button className="btn btn-outline px-6 py-3 rounded-full group font-bold flex items-center gap-3 group  hover:bg-white    ">
+            <button className="btn border border-[#7238f8] px-6 py-3 rounded-full group font-bold flex items-center gap-3 group  hover:bg-white    ">
               <span className="group-hover:translate-x-1 transition group text-[#5944f5] ">
                 <Play />
               </span>
