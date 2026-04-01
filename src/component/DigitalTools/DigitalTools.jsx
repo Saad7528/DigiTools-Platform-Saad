@@ -128,7 +128,7 @@ const DigitalTools = ({ cardItems, setCardItems }) => {
                 <button
                   onClick={() => handleBuyNow(product)}
                   disabled={cardItems?.find((card) => card.id === product.id)}
-                  className="mt-auto w-full py-3.5 bg-[#8326ff] hover:bg-[#6b1bcc] text-white font-semibold rounded-full transition-colors duration-300 disabled:bg-gray-400"
+                  className="mt-auto w-full py-3.5 bg-gradient-to-r from-[#4f39f6] to-[#9514FA] text-white font-semibold rounded-full transition-colors duration-300 disabled:bg-none disabled:bg-gray-400 disabled:cursor-not-allowed"
                 >
                   {cardItems?.find((card) => card.id === product.id)
                     ? "Added"
@@ -174,6 +174,7 @@ const DigitalTools = ({ cardItems, setCardItems }) => {
                     </div>
                   ))
                 ) : (
+                  
                   <p className="text-slate-500 text-center py-8">
                     Your cart is empty.
                   </p>
