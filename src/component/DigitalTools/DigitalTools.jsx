@@ -154,6 +154,7 @@ const DigitalTools = ({ cardItems, setCardItems }) => {
                       <div className="flex items-center gap-4">
                         <div className="h-12 w-12 bg-white rounded-full flex items-center justify-center shadow-sm border border-slate-100 shrink-0">
                           <img src={item.icon} alt="" />
+                          {/* sjfskdsjshsjkf */}
                         </div>
                         <div>
                           <h4 className="text-base font-semibold text-slate-900 mb-0.5">
