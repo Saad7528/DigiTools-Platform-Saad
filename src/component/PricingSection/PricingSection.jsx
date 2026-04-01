@@ -6,7 +6,7 @@ const PricingSection = () => {
   const [selectedPlanId, setSelectedPlanId] = useState(2); 
 
   useEffect(() => {
-    fetch('/public/pricing.json')
+    fetch('/pricing.json')
       .then((response) => response.json())
       .then((data) => setPricingPlans(data))
       .catch((error) => console.error('Error fetching data:', error));
