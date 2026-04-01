@@ -37,10 +37,10 @@ const Footer = () => {
           <div className="lg:col-span-1">
             <h3 className="text-lg font-medium mb-6">Resources</h3>
             <ul className="space-y-4 text-slate-400 text-[15px]">
-              <li><a href="#" className="hover:text-white transition-colors duration-300">Documentation</a></li>
-              <li><a href="#" className="hover:text-white transition-colors duration-300">Help Center</a></li>
-              <li><a href="#" className="hover:text-white transition-colors duration-300">Community</a></li>
-              <li><a href="#" className="hover:text-white transition-colors duration-300">Contact</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Documentation</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Help Center</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Community</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Contact</a></li>
             </ul>
           </div>
 
@@ -74,16 +74,14 @@ const Footer = () => {
 
         </div>
 
-        
         <div className="border-t border-slate-700/50 mb-8"></div>
 
-        
         <div className="flex flex-col md:flex-row justify-between items-center text-[14px] text-slate-500">
           <p>© 2026 Digitools. All rights reserved.</p>
           <div className="flex gap-6 mt-4 md:mt-0">
-            <a href="#" className="hover:text-white transition-colors duration-300">Privacy Policy</a>
-            <a href="#" className="hover:text-white transition-colors duration-300">Terms of Service</a>
-            <a href="#" className="hover:text-white transition-colors duration-300">Cookies</a>
+            <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
+            <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
+            <a href="#" className="hover:text-white transition-colors">Cookies</a>
           </div>
         </div>
 

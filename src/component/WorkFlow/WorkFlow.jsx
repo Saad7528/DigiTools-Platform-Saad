@@ -2,7 +2,7 @@ import React from 'react';
 
 const WorkFlow = () => {
   return (
-    <section className="w-full py-24 px-6 bg-linear-to-r from-[#562dff] to-[#b324ff] font-sans flex flex-col items-center justify-center">
+    <section className="w-full mt-20 py-24 px-6 bg-linear-to-r from-[#562dff] to-[#b324ff] font-sans flex flex-col items-center justify-center">
       <div className="w-9/12 mx-auto text-center">
         
         <h2 className="text-4xl md:text-5xl font-bold text-white mb-5">

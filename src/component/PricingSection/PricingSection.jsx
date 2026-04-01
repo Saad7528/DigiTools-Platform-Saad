@@ -60,7 +60,6 @@ const PricingSection = () => {
                   </p>
                 </div>
 
-                {/* মূল্য */}
                 <div className="flex items-baseline mb-8">
                   <span className={`text-4xl font-bold tracking-tight ${isSelected ? 'text-white' : 'text-slate-950'}`}>
                     {plan.price}
@@ -70,7 +69,6 @@ const PricingSection = () => {
                   </span>
                 </div>
 
-                {/* ফিচার তালিকা */}
                 <ul className="space-y-4 mb-10 pt-8 border-t  border-slate-200/50">
                   {plan.features.map((feature, featureIndex) => (
                     <li key={featureIndex} className="flex items-center gap-3">
@@ -85,7 +83,6 @@ const PricingSection = () => {
                 </ul>
                </div>
 
-                {/* বাটন */}
                 <button 
                   className={`w-full px-6 py-3.5 rounded-xl font-semibold text-base transition-colors duration-300 
                   ${isSelected ? 'bg-white text-[#4f39f6] hover:bg-slate-100' : 'bg-[#4f39f6] text-white hover:bg-indigo-800'}`}

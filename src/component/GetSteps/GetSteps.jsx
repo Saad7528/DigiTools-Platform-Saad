@@ -31,7 +31,7 @@ const GetSteps = () => {
     <section className="bg-white py-16 px-4 md:py-24">
       <div className="w-9/12 mx-auto text-center">
         
-        <h2 className="text-5xl md:text-5xl font-extrabold text-slate-950 mb-4 ">
+        <h2 className="text-4xl md:text-5xl font-extrabold text-slate-950 mb-4 ">
           Get Started In 3 Steps
         </h2>
         <p className="text-lg text-slate-600 mb-16 md:mb-20 max-w-2xl mx-auto">
