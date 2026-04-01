@@ -1,6 +1,6 @@
 # 🚀 DigiTools Platform
 
-[![Live](git add .)](https://digitools-platform-saad.netlify.app/)
+[![Live](https://img.shields.io/badge/Live-blueviolet?style=for-the-badge)](https://digitools-platform-saad.netlify.app/)
 
 🔗 **Live Link:** [https://digitools-platform-saad.netlify.app/](https://digitools-platform-saad.netlify.app/)
 
