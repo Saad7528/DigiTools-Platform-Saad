@@ -1,8 +1,8 @@
 import React from "react";
 
-import user from '../../assets/user.png';
-import product from '../../assets/package.png';
-import rocket from '../../assets/rocket.png';
+import user from '/assets/user.png';
+import product from '/assets/package.png';
+import rocket from '/assets/rocket.png';
 
 
 const stepsData = [

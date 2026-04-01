@@ -1,5 +1,5 @@
 import { Play } from "lucide-react";
-import BannerImage from "../../assets/banner.png";
+import BannerImage from "/assets/banner.png";
 import GradientBtn from "../GradientBtn/GradientBtn";
 
 const Banner = () => {

@@ -27,7 +27,7 @@ const NavBar = ({ cardItems }) => {
         <div className="flex items-center font-bold text-xl">
           <img
             className="h-8 md:h-10 w-auto"
-            src="/src/assets/DigiTools.png"
+            src="/assets/DigiTools.png"
             alt="DigiTools Logo"
           />
         </div>
